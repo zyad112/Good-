@@ -1,0 +1,64 @@
+
+/* خلفية جذابة */
+body {
+    background: url('https://source.unsplash.com/1920x1080/?future,technology') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+
+/* العنوان الرئيسي */
+#main-title {
+    font-size: 3rem;
+    color: #00ffcc;
+    text-shadow: 0 0 20px #00ffcc;
+}
+
+/* الوصف */
+#description {
+    font-size: 1.2rem;
+    color: #dcdcdc;
+}
+
+/* صندوق الإدخال */
+.futuristic-input input {
+    border: 2px solid #00ffcc;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+}
+
+.futuristic-input .btn {
+    background: linear-gradient(45deg, #00ffcc, #0066cc);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #00ffcc;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.futuristic-input .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #00ffcc;
+}
+
+/* منطقة المقال */
+.futuristic-article {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 204, 0.7);
+}
+
+/* المقال الناتج */
+#article-title {
+    color: #00ffcc;
+    text-shadow: 0px 0px 10px #00ffcc;
+}
+
+#articleContent {
+    text-align: right;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
